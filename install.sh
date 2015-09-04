@@ -9,7 +9,7 @@ nvm_has() {
 }
 
 if [ -z "$NVM_DIR" ]; then
-  NVM_DIR="$HOME/.nvm"
+  NVM_DIR="/opt/nvm"
 fi
 
 nvm_latest_version() {
